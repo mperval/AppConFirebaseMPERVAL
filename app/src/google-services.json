@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "486089293791",
+    "firebase_url": "https://appconfirebasemperval-default-rtdb.firebaseio.com",
+    "project_id": "appconfirebasemperval",
+    "storage_bucket": "appconfirebasemperval.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486089293791:android:0cf91406f88dd82e8bce6a",
+        "android_client_info": {
+          "package_name": "ies.carrillo.android.appconfirebasemperval"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0YUP7N_B-Vz-hDjAEIG7p8Ky6WqyL3eI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
