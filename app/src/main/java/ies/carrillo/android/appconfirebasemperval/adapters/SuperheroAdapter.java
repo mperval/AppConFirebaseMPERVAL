@@ -46,6 +46,7 @@ public class SuperheroAdapter extends ArrayAdapter<Superhero> {
             tvName.setText(superhero.getName());
             Log.i("nameAdapter", superhero.getName());
             Log.i("text", tvName.getText().toString());
+
             StringBuilder powersText = new StringBuilder();
             ArrayList<String> powers = superhero.getPowers();
             for (String power : powers) {

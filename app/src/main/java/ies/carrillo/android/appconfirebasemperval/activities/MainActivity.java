@@ -51,20 +51,15 @@ public class MainActivity extends AppCompatActivity {
                         Log.i("power", power);
                         powers.add(power);
                     }
-
                     Superhero superhero = new Superhero(id, name, powers, active);
                     superheros.add(superhero);
                 }
-
                 daSuper = new SuperheroAdapter(getApplicationContext(),  superheros);
                 daSuper.notifyDataSetChanged();
                 lvSuperhero.setAdapter(daSuper);
-
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-
                 Log.w("Firebase", "Error en la lectura en la base de datos.", error.toException());
             }
         });
